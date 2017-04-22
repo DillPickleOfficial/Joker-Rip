@@ -1,1 +1,14 @@
 p[name="raymond"]{color: red;}
+.tuna {
+  background: #777;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: green;
+  color: #000
+}
+
+#bottomfooter {
+  font-size: 11;
+  font-family: Arial;
+  color: #555
+}
