@@ -8,7 +8,51 @@ p[name="raymond"]{color: red;}
 }
 
 #bottomfooter {
-  font-size: 11;
+  font-size: 7pt;
   font-family: Arial;
   color: #555
+}
+
+
+.navigation {
+  border: 1px solid #DDD;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.navigation a {
+  background: #D7263D;
+  border: 1px solid #D7263D;
+  border-radius: 3px;
+  color: #FFF;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background: #FFF;
+  border: 1px solid #D7263D;
+  color: #D7263D;
+  animation: ease;
+}
+
+.spanner {
+  background-image: url("https://static.pexels.com/photos/26559/pexels-photo-26559.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+}
+
+#spanner-content {
+  border: 1px solid #FFF;
+  position: relative;
+  top: 20%;
+  width: 60%;
+  color: white;
 }
