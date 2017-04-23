@@ -3,7 +3,7 @@
 	padding: 0px;
 }
 
-<<<<<<< HEAD
+
 #bottomfooter {
   font-size: 7pt;
   font-family: Arial;
@@ -12,7 +12,7 @@
 
 
 .navigation {
-  border: 1px solid #DDD;
+  /*border: 1px solid #DDD;*/
   padding: 40px 0px;
   position: relative;
   text-align: center;
