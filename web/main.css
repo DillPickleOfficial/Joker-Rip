@@ -3,42 +3,62 @@
 	padding: 0px;
 }
 
-<<<<<<< HEAD
 #bottomfooter {
   font-size: 7pt;
   font-family: Arial;
   color: #555
 }
 
-
-.navigation {
-  border: 1px solid #DDD;
-  padding: 40px 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
+h1 {
+	font: bold 20px Tohoma;
 }
 
-.navigation a {
-  background: #D7263D;
-  border: 1px solid #D7263D;
-  border-radius: 3px;
-  color: #FFF;
+h1 {
+	font: bold 14px Tohoma;
+}
+
+header, section, fooder, aside, nav, article, hgroup, div, a {
+	display: block;
+}
+
+body {
+	text-align: center;
+}
+
+#wrapper {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.top_menu {
+	border: 1px solid lightgray;
+	background: white;
+	box-shadow: 0px 1px 1px #ededed;
+	text-align: left;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.top_menu a {
+  margin: 0px 0px;
+  border-right: 1px solid lightgray;
+  background: white;
+  font: 12px Verdana;
+  color: gray;
   display: inline-block;
-  margin: 10px 10px;
   padding: 14px;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
-.navigation a:hover {
-  background: #FFF;
-  border: 1px solid #D7263D;
-  color: #D7263D;
+.top_menu a:hover {
+  background: #f2f2f2;
+  color: gray;
   animation: ease;
 }
 
 .spanner {
+  margin-top: 44px;
   background-image: url("https://static.pexels.com/photos/26559/pexels-photo-26559.jpg");
   background-size: cover;
   background-position: bottom center;
@@ -46,10 +66,10 @@
   width: 100%;
 }
 
-#spanner-content {
-  border: 1px solid #FFF;
-  position: relative;
-  top: 20%;
+#spanner_content {
+  margin: auto;
+  border: 3px solid white;
+  padding: 20px;
   width: 60%;
   color: white;
 }
