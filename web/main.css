@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+  font: verdana;
 }
 
 
@@ -52,4 +53,5 @@
   top: 20%;
   width: 60%;
   color: white;
+  padding-left:10px;
 }

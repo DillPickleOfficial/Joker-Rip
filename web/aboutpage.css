@@ -6,7 +6,9 @@
 body{
   font-family:'Verdana', sans-serif;
   font: Verdana;
-  background-image: url("http://www.planwallpaper.com/static/images/cool-background.jpg");
+  background:
+  linear-gradient(white, lightblue);
+  background-size: 1024px 1024px
 }
 
 .navigation {
