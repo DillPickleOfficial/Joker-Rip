@@ -1,13 +1,8 @@
 * {
 	margin: 0px;
 	padding: 0px;
-  font: verdana;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 #bottomfooter {
   font-size: 7pt;
   font-family: Arial;
@@ -18,7 +13,6 @@ h1 {
 	font: bold 20px Tohoma;
 }
 
-<<<<<<< HEAD
 h1 {
 	font: bold 14px Tohoma;
 }
@@ -44,14 +38,6 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-=======
-.navigation {
-  /*border: 1px solid #DDD;*/
-  padding: 40px 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
->>>>>>> origin/master
 }
 
 .top_menu a {
@@ -86,5 +72,4 @@ body {
   padding: 20px;
   width: 60%;
   color: white;
-  padding-left:10px;
 }
